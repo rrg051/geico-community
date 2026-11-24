@@ -1,0 +1,11 @@
+{
+  "name": "geico-community-store",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Geico Community LLC storefront with Square card checkout",
+  "type": "commonjs",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "start": "node server.js"
+  }
+}
