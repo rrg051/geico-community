@@ -2,6 +2,8 @@
 
 One-page store for Geico Community LLC (consumer products, New Mexico) with a cart and Square card checkout.
 
+**Live storefront:** https://rrg051.github.io/geico-community/ — served by GitHub Pages from `main`. Pages can only serve static files, so on that copy the checkout reaches Square and stops at "the payment service is not connected" until the API below is hosted somewhere (see Hosting).
+
 - `index.html` — the whole site: design, catalog cards, cart, checkout. Self-contained apart from Google Fonts and Square's card script.
 - `server.js` — a small Node service that serves the page and charges cards through Square. No dependencies.
 - `lib/square-pay.js` — the payment call, shared by both kinds of server.
